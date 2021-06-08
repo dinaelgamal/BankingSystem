@@ -13,13 +13,13 @@ It's a REST API which take senderID, receiverID, transferAmount and currency aft
 
 ## Installed apps and Packages
 
-install mysql server using workbench
+```install mysql server using workbench```
 
-python -m pip install Django
+```python -m pip install Django```
 
-pip install djangorestframework
+```pip install djangorestframework```
 
-pip install mysqlclient
+```pip install mysqlclient```
 
 ## Database setup
 
@@ -27,11 +27,11 @@ publish database on localhost with port 3306
 
 ## django commands
 
-python manage.py makemigrations
+```python manage.py makemigrations````
 
-python manage.py migrate
+```python manage.py migrate```
 
-python manage.py runserver
+```python manage.py runserver```
 
 ## Access userBalance_API
 
